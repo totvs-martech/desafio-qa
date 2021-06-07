@@ -26,3 +26,8 @@ id: "50"
 - Deverá fazer a leitura do livro recém criado
 Fazer um GET e retornar o livro que acabou de ser criado
 
+#### Submissão
+ - Criar um fork desse projeto e entregar via Pull Request
+
+#### Prazo de Entrega
+ - 4 Dias
