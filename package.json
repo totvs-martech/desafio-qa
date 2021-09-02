@@ -1,0 +1,30 @@
+{
+  "name": "desafio-qa",
+  "version": "1.0.0",
+  "description": "Desafio QA",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:merge": "mochawesome-merge > mochawesome-report/report.json",
+    "test:html": "marge mochawesome-report//\\report.json",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/totvs-store/desafio-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/totvs-store/desafio-qa/issues"
+  },
+  "homepage": "https://github.com/totvs-store/desafio-qa#readme",
+  "dependencies": {
+    "cypress": "^8.3.1",
+    "mocha": "^9.1.1",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0"
+  }
+}
