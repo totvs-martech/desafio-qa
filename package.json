@@ -4,6 +4,10 @@
   "description": "Desafio QA",
   "main": "index.js",
   "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:merge": "mochawesome-merge > mochawesome-report/report.json",
+    "test:html": "marge mochawesome-report//\\report.json",
     "cy-open": "cypress open",
     "scripts": "cypress run --config video=false",
     "test:merge": "mochawesome-merge > mochawesome-report/report.json",

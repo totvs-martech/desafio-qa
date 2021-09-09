@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-02T20:29:50.945Z",
+    "end": "2021-09-02T20:29:51.380Z",
+    "duration": 435,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7f4f7cfe-40f9-43a5-9af7-d73446dd4ee0",
+      "title": "",
+      "fullFile": "cypress/integration/services/Books/testes/POSTBooks.spec.js",
+      "file": "cypress/integration/services/Books/testes/POSTBooks.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "27d3c595-bf9e-4f9a-9451-56de5b61b8a7",
+          "title": " POST Books",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Adicionando novo livro",
+              "fullTitle": " POST Books Adicionando novo livro",
+              "timedOut": null,
+              "duration": 414,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "POSTBooks.addBook().should(response => {\n  expect(response.status).to.equal(200);\n  expect(response.body.title).to.equal(\"Automatizando uma API\");\n});",
+              "err": {},
+              "uuid": "2a06ffd4-2e53-4ad5-a9a1-9cb5f17ade08",
+              "parentUUID": "27d3c595-bf9e-4f9a-9451-56de5b61b8a7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2a06ffd4-2e53-4ad5-a9a1-9cb5f17ade08"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 414,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "quite": true,
+        "overwrite": true,
+        "html": false,
+        "json": true,
+        "timestamp": "ddmmyyyy_HHMMss"
+      },
+      "version": "5.2.0"
+    }
+  }
+}

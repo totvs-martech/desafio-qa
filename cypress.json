@@ -1,5 +1,6 @@
 {
-    "baseUrl":"https://totvs.store",
+    "baseUrl": "http://fakerestapi.azurewebsites.net/api/v1",
+    "video": false,
     "defaultCommandTimeout": 15000,
     "reporter": "mochawesome",
     "reporterOptions":{
@@ -9,9 +10,4 @@
             "html": false,
             "json": true,
             "timestamp": "ddmmyyyy_HHMMss"
-    },
-    "watchForFileChanges": true,
-    "viewportWidth": 1269,
-    "viewportHeight": 700
-
 }
