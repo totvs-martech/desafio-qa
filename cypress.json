@@ -1,0 +1,17 @@
+{
+    "baseUrl":"https://totvs.store",
+    "defaultCommandTimeout": 15000,
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "reportDir":"mochawesome-report",
+            "quite": true,
+            "overwrite": true,
+            "html": false,
+            "json": true,
+            "timestamp": "ddmmyyyy_HHMMss"
+    },
+    "watchForFileChanges": true,
+    "viewportWidth": 1269,
+    "viewportHeight": 700
+
+}
