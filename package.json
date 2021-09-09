@@ -1,5 +1,5 @@
 {
-  "name": "desafio-qa",
+  "name": "desafio-qa-jose",
   "version": "1.0.0",
   "description": "Desafio QA",
   "main": "index.js",
@@ -8,14 +8,18 @@
     "cy:run": "cypress run",
     "test:merge": "mochawesome-merge > mochawesome-report/report.json",
     "test:html": "marge mochawesome-report//\\report.json",
-    
+    "cy-open": "cypress open",
+    "scripts": "cypress run --config video=false",
+    "test:merge": "mochawesome-merge > mochawesome-report/report.json",
+    "test:html": "marge mochawesome-report//\\report.json",
+    "test:report": "npm test:merge & npm test:html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/totvs-store/desafio-qa.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "José Paulo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/totvs-store/desafio-qa/issues"
@@ -23,6 +27,7 @@
   "homepage": "https://github.com/totvs-store/desafio-qa#readme",
   "dependencies": {
     "cypress": "^8.3.1",
+    "cypress-xpath": "^1.6.2",
     "mocha": "^9.1.1",
     "mochawesome": "^6.2.2",
     "mochawesome-merge": "^4.2.0"
